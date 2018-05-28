@@ -27,15 +27,15 @@ function destructivelyRemoveElementFromBeginningOfArray(array){
   return array;
 }
  
-function removeElementFromBeginningOfArray(chocolateBars){
-  return chocolateBars.slice(1);
+function removeElementFromBeginningOfArray(array){
+  return array.slice(1);
 }
  
-function destructivelyRemoveElementFromEndOfArray(chocolateBars){
-  chocolateBars.pop();
-  return chocolateBars;
+function destructivelyRemoveElementFromEndOfArray(array){
+  array.pop();
+  return array;
 }
  
-function removeElementFromEndOfArray(chocolateBars){
-  return chocolateBars.slice(0, chocolateBars.length - 1);
+function removeElementFromEndOfArray(array){
+  return array.slice(0, array.length - 1);
 }
